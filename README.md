@@ -1,2 +1,2 @@
-# sivanesh-s.gtihub.io
+# sivanesh-s.github.io
 Personal Github Page
