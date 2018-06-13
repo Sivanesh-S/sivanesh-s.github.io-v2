@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sivanesh | Full stack Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/page2.css">
+</head>
+<body>
+    <div id="page1" onscroll="scrolled()">
+        <div id="main-content">
+            <div id="title">Sivanesh</div>
+            <div id="small-title">
+                <div id=flip>
+                    <div><div>Full Stack</div></div>
+                    <div><div>Front End</div></div>
+                    <div> <div>Back End</div></div>
+                </div>
+                <span id="developer">Developer</span>
+            </div>
+        </div>
+        <img src="images/profile.jpg" alt="Sivanesh" id="profile-pic">
+    </div>
+
+    <div id="sidebar">
+        <ul id="sidebar-ul">
+            <li><a href="">Home</a></li>
+            <li id="projects"><a>Projects</a></li>
+            <li><a href="">About Me</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Resume</a></li>
+        </ul>
+    </div>
+
+    <div id="fixed">
+        <div id="current-menu">Home</div>
+        <div id="menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <img src="images/floater.svg" alt="Floater" id="floater">
+    </div>
+
+
+
+    <div id="page2">
+        <div id="project-list">
+            <h1>Project List</h1>
+            <ol>
+                <li><a id="chatterax-menu">Chatterax (An incognito Chat app)</a></li>
+                <li><a id="gst-menu">GST Bill Generator</a></li>
+                <li><a id="budget-menu">Budget Manager</a></li>
+                <li><a id="xo-menu">XO Game (Javascript)</a></li>
+                <!-- <li><a>Projects for small Organizations</a></li> -->
+            </ol>
+        </div>
+        <div id="project-info">
+            <h1>Project Info</h1>
+            <div id="chatterax-contents">
+ A chat app made with Socket IO for Personal chats. Persons who are online with that website can chat. 
+ No databases are used to store messages.
+for chats hence after refreshing messages wont be stored.
+                <h3><a href="https://chatterax.herokuapp.com/">Project Demo</a></h3> 
+                <h3><a href="https://github.com/Sivanesh-S/chat-app">Source code</a></h3> 
+                <h4>Note:</h4>
+                <p><ul>
+                    <li>Use google login</li>
+                    <li>If no one present in Online use your another google account in another login (and another browser) for testing purposes.</li>
+                </ul></p>
+            </div>
+            <!-- GST Bill generator -->
+            <div id="gst-contents">
+                
+                <p>It has two pages</p>
+                <h3>
+                    Home page</h3>
+                <p>Stores product details and their Price and GST Percentage</p>
+                <h3>
+                    <h3>Billing Page</h3>
+                <p>Here's where the Billing for the products are made Pre defined all products are shown first you can choose ADD to add the
+                    items to bill There's also a Search commmand where it easily searches according to Product name or product code.</p>
+                <p>Then after adding you can mention the quantity (Default is 1 after added)</p>
+                <p>While doing adding and Quantity changes the Total Money and Total Quantites will be updated simultaneously.</p>
+
+            </div>
+
+            <!-- Budget Manager -->
+            <div id="budget-contents">
+                <h3><a href="https://github.com/Sivanesh-S/budget-manager">Source code</a></h3>
+<p>A Budget manager App Built only using HTML, CSS and Javascript. Runs implementations in Browser. Used for calculating our
+    daily expenses and incomes. Very essential app.</p>
+            </div>
+
+            <!-- XO Game -->
+            <div id="xo-contents">
+                <h4>Simple XO game made using DOM elements.</h4>
+            </div>
+        </div>
+        <div id="col2">
+            <div id="chatterax-main">
+
+                <article class="markdown-body entry-content" itemprop="text">
+                    <h1>
+                        Chat App</h1>
+                    <p>[Only Google Login is enabled right now]</p>
+                    <h2>
+                        For Live Demo visit:
+                        <a href="/Sivanesh-S/chat-app/blob/master/chatterax.herokuapp.com">Chatterax</a>
+                    </h2>
+                    <p>A chat app made with Socket IO for Personal chats. Persons who are online with that website can chat. No database is
+                        used for chats hence after refreshing messages wont be stored.</p>
+                    <h2>
+                        Technologies used</h2>
+                    <h3>
+                        Front end</h3>
+                    <ul>
+                        <li>HTML CSS -
+                            <em>for markups and styling</em>
+                        </li>
+                        <li>Javascript -
+                            <em>for the Logics and DOM Manipulations</em>
+                        </li>
+                        <li>Materialize CSS -
+                            <em>Frontend CSS Framework</em>
+                        </li>
+                    </ul>
+                    <h3>
+                        Backend</h3>
+                    <ul>
+                        <li>NodeJS -
+                            <em>Server side Programming using Javascript</em>
+                        </li>
+                        <li>Express -
+                            <em>Framework for Node JS</em>
+                        </li>
+                        <li>Passport JS -
+                            <em>For Open Authentication</em>
+                        </li>
+                        <li>Socket IO - 'Communication between sockets'</li>
+                        <li>MongoDB - 'NoSQL Database'</li>
+                        <li>Mongoose - 'A MongoDB driver for Node JS for dealing with User Models'</li>
+                        <li>Heroku CLI -
+                            <em>Uploaded in Heroku hence a CLI to manage it</em>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+
+            <div id="gst-main">
+                <h1>GST Bill generator and Products uploader</h1>
+                <h2>Tools used</h2>
+                <h3>Front End</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>w3-css CSS Library</li>
+                </ul>
+                <h3>Background</h3>
+                <ul>
+                    <li>NodeJS</li>
+                    <li>Express (NodeJS Framework)</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+
+            <div id="budget-main">
+                Under development
+            </div>
+            <div id="xo-main">
+                <h1>XO Game</h1>
+                <h2>Technologies Used</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Grid CSS</li>
+                </ul>
+            </div>
+
+            
+        </div>
+        <div id="col3">
+
+        </div>
+        
+    </div>
+    <script src="fontawesome-free-5.0.13/svg-with-js/js/fontawesome.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
